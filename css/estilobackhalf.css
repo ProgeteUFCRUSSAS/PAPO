@@ -1,0 +1,117 @@
+.principal{
+    position: absolute;
+}
+.header-top{
+    background-color: #050A30;
+    
+   
+    width: 100vw;
+    
+
+}
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+   
+    margin-top: 1vh;
+}
+.header-nav ul{
+    margin: 0px;
+    padding-left: 60vw;
+    
+}
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0 5px 0 0;
+    padding: 13px;
+      
+}
+.tela1{
+    height: 100vh;
+}
+
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-top: 10vh;
+     
+}
+.logo{
+    margin: 5px 0 0 0px;    
+    max-width: 10vw;
+    max-height: 10vh;
+    width: 100%;
+    height: 8vh;
+    position: relative;
+    
+    padding-left: 20px;
+    
+}
+.Cadastro{
+   
+    display: inline-block;
+    
+    border: 10px;    
+    
+    text-decoration: none;
+    
+    margin: 3px;
+    
+    
+    
+    
+    color: #050A30;
+    
+}
+.Cadastro a{
+    background-color: white;
+    color: #050A30;
+    border-radius: 10px;
+    padding: 5px;
+}
+.corpo1{
+    margin-bottom: 0px;      
+    font-family: 'Montserrat';
+}
+.descricao-psicologo{
+    max-width: 50vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+.texto-superior{
+    
+    position: absolute;
+    display: inline-block;
+    float: right;
+    max-width: 50vw;
+    margin-left: 1vw;
+    margin-top: 3vh
+    
+}
+.perfil{
+    float: left;
+    
+    
+}
+.perfil img{
+    border-radius: 50%;
+}
+.texto-inferior{
+    float: left;
+    display: inline-block;
+    position: relative;
+   
+    width: 35vw;
+}
+.calendario{
+    position: absolute;
+    float: right;
+
+    margin-left: 100vh;
+}

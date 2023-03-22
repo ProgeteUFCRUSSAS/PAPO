@@ -1,0 +1,238 @@
+.principal{
+    position: absolute;
+}
+.header-top{
+    background-color: #050A30;
+    position: relative;
+    height: 10vh;
+    
+
+}
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    margin-top: 1vh;
+}
+.header-nav ul{
+    margin: 0px;
+    padding-right: 30px;
+    position: relative; 
+}
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0 5px 0 0;
+    padding: 13px;
+      
+}
+.tela1{
+    height: 100vh;
+}
+
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-top: 10vh;
+     
+}
+.logo{
+    margin: 5px 0 0 0px;    
+    max-width: 10vw;
+    max-height: 100px;
+    width: 100%;
+    height: 8vh;
+    
+    float: left;
+    padding-left: 20px;
+}
+.Cadastro{
+   
+    display: inline-block;
+    
+    border: 10px;    
+    
+    text-decoration: none;
+    
+    margin: 3px;
+    
+    
+    
+    
+    color: #050A30;
+    
+}
+.Cadastro a{
+    background-color: white;
+    color: #050A30;
+    border-radius: 10px;
+    padding: 5px;
+}
+.corpo1{
+    margin-bottom: 0px;      
+    
+}
+.textos{
+    margin-top: 50px;
+    position: absolute;
+    float: left;
+    font-size: 34px;
+    font-family: 'Montserrat';
+    max-width: 40%;
+    
+
+}
+
+.botaoconsulta{
+    float:left;
+    position: relative;
+    text-decoration: none;
+    color: #050A30;
+    font-size: 30px;
+    border-color: #050A30;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.botaoconsulta a{
+    float:left;
+    position: relative;
+    text-decoration: none;
+    color: #050A30;
+    font-size: 30px;
+    
+}
+.psic{
+    
+    float: right;
+    position: relative;
+    height: 100%;
+
+}
+.fotopsic{
+    float: right;
+    width: 40vw;
+    height: 90vh;
+}
+.texto2{
+    margin-top: -40px;
+    padding-top: -20px;
+    color: #38B6FF;
+}
+.corpo2{
+          
+    height: 100vh;
+    width: 100vw;
+    background-color: #050A30;
+}
+.textoc2{
+    
+    color: white;
+    font-family: 'Montserrat';
+}
+.textoc2 h2{
+    float: right;   
+    padding-top: 10px;
+    margin-top: 10vw;
+    max-width: 40vw;
+    font-size: 55px;
+    margin-right: 10vw;
+    
+}
+.corpo3{
+    height: 100vh;
+    width: 100vw;
+}
+
+.textoc3{
+    padding: 10px;
+    color: #050A30;
+    font-family: 'Montserrat';
+}
+.textoc3 h2{
+    margin-top: 25vh;
+    float: left;   
+    
+    max-width: 50vw;
+    font-size: 6vh;
+    margin-right: 10vw;
+    height: 80%;
+    font-weight: bold;
+}
+.fotonote{
+    margin-top: 5vh;
+    
+    float: right;
+    max-width: 35vw;
+    height: 100vh;
+    
+}
+.corpo4{
+    height: 100vh;
+    width: 100vw;
+    background-color: #050A30;
+    position: relative;
+    overflow: auto;
+    
+}
+
+
+.textoc4{
+    position:absolute;
+    padding: 10px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    float: right;
+    margin-left: 40vw;
+    margin-top:10vh;   
+    margin-bottom: 10vh; 
+   
+}
+.textoc4 h2{
+    position: absolute; 
+    
+    
+    max-width: 50vw;
+    font-size: 10vh;
+    margin-right: 0vw;
+    height: 80%;
+}
+.logo2div{
+    position: absolute;  
+    display: inline-block;  
+    float: left;
+    margin-top: 10vh;
+    max-height: 60vh;
+  
+    margin-left: -27vw;
+
+
+    
+    
+    
+}
+.logo2{
+    position: absolute;    
+    max-height: 60vh;   
+    
+    
+}
+.corpo4content{
+    max-height: 80%;
+    margin-bottom: 20vh;
+}
+.footer{
+ 
+    background-color: #ffffff;
+    height: 15vh;
+    margin-top: 85vh;
+    
+}
+
+    
