@@ -1,9 +1,9 @@
 export const defaultTheme = {
   colors: {
-    primary: '#0054B8',
-    secondary: '#EF5B22',
-    tertiary: '#F4811F',
-    quaternary: '#FBB713',
+    primary: '#38B6FF',
+    secondary: '#0292B7',
+    tertiary: '#5E71FF',
+    quaternary: '#1644FF',
     salmon: '#E89782',
     mainGreen: '#71BA3C',
     ctaBorder: '#F49800',
