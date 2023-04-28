@@ -11,12 +11,12 @@ export function SignIn(){
       <img src={Image} alt="" />
       {/* <button>Sou psicologo</button> */}
     </SectionImage>
-      <Formulario>
-        <h1>LOGIN</h1>
-        <FormularioLogin />
-        <p>Não tem uma conta? 
-        <Link to="/signOutUsuarios"> Registrar-se.</Link></p>
-      </Formulario>
+    <Formulario>
+      <h1>LOGIN</h1>
+      <FormularioLogin />
+      <p>Não tem uma conta? 
+      <Link to="/signOutUsuarios"> Registrar-se.</Link></p>
+    </Formulario>
   </Container>
   )
 }

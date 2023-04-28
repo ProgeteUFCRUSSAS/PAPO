@@ -1,5 +1,5 @@
 import { ContainerForm, Input } from "../FormSignIn/styles";
-import SignOutFormSchema from '../../validations/validationLogin'
+import SignOutFormSchema from '../../validations/validationSignOut'
 import {yupResolver} from "@hookform/resolvers/yup"
 import {SubmitHandler, useForm} from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
@@ -32,18 +32,18 @@ export function FormularioSignOut(){
 
       <p>Usuario</p>
       <Input type="text" placeholder='Usuario' {...register("usuario")}/>
-      {errors.email?.message && <p style={{color: 'red'}}>{errors.email.message}</p>}
+      {errors.usuario?.message && <p style={{color: 'red', fontSize: "14px"}}>{errors.usuario.message}</p>}
 
       <p>E-mail</p>
       <Input type="text" placeholder='Email' {...register("email")}/>
-      {errors.email?.message && <p style={{color: 'red'}}>{errors.email.message}</p>}
+      {errors.email?.message && <p style={{color: 'red', fontSize: "14px"}}>{errors.email.message}</p>}
 
       <p>Senha</p>
       <Input type="password" placeholder='Senha' {...register("password")}/>
-      {errors.password?.message && <p style={{color: 'red'}}>{errors.password.message}</p>}
+      {errors.password?.message && <p style={{color: 'red', fontSize: "14px"}}>{errors.password.message}</p>}
 
       <button type="submit" title='Entrar'>Cadastrar</button>
-      {error && <p style={{color: 'red'}}>{error}</p>}
+      {error && <p style={{color: 'red', fontSize: "14px"}}>{error}</p>}
     </ContainerForm>
   )
 }

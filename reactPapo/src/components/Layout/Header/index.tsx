@@ -21,7 +21,7 @@ export function Header(){
               <Link to="/">Entrar</Link>
            </li>
            <li>
-              <Link to="/">Cadastrar</Link>
+              <Link to="/SignOutPsicologos">Cadastrar</Link>
            </li>
        </ul>
             </H.NavContainer>

@@ -1,6 +1,6 @@
 export const defaultTheme = {
   colors: {
-    primary: '#38B6FF',
+    primary: '#38B6FF',//#3E8FEC
     secondary: '#0292B7',
     tertiary: '#5E71FF',
     quaternary: '#1644FF',
@@ -8,17 +8,7 @@ export const defaultTheme = {
     mainGreen: '#71BA3C',
     ctaBorder: '#F49800',
     borderGray: '#C0C0C0',
-    softPrimary: '#d9e6f4',
-    alert: '#f14300',
-    border: '#E0E0E0',
-    dots: '#D9D9D9',
-    gndiGray: '#58585A',
-    bgGray: '#F2F5F9',
-    bgFooter: '#F6F4F1',
-    bgGlobal: '#FFF',
-    red: '#FF0000',
-    azul: '#31dec1',
-    cinza: '#f9f9f9'
+    softPrimary: '#d9e6f4'
   },
   breakpoints: {
     xs: '360px',

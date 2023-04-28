@@ -9,11 +9,12 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
   margin: 0 35px;
+  margin-bottom: 35px;
 `
 
 export const Logo = styled.img`
   width: 320px;
-  height: 70px;
+  height: 60px;
 `
 
 export const NavContainer = styled.nav`
@@ -28,7 +29,7 @@ export const NavContainer = styled.nav`
       color: ${(props) => props.theme.colors.primary};
       font-weight: bold;
       text-decoration: none;
-      font-size: 37px;
+      font-size: 30px;
 
       &:hover {
         color: ${(props) => props.theme.colors.secondary};
