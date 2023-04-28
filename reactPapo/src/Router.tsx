@@ -18,8 +18,8 @@ export function Router(){
             pois o Header ira acompanhar em todas*/}
             <Route path='/' element={<SignIn />}/>
             {/* <Route path='/signIn' element={<SignIn />} /> */}
-            <Route path='/signOutUsuarios' element={<SignOutPsicologos />}/>
-            <Route path='/signOutPsicologos' element={<SignOutUsuarios />}/>
+            <Route path='/cadastro-psicologos' element={<SignOutPsicologos />}/>
+            <Route path='/cadastro-usuarios' element={<SignOutUsuarios />}/>
           </Route>
         </Routes>
       </Fragment>

@@ -15,7 +15,7 @@ export function SignOutUsuarios(){
     <SectionImage>
       <h1>Faça seu cadastro</h1>
       <img src={Image} alt="imagem psicologo com paciente" />
-      <Link to="/SignOutUsuarios">Sou paciente</Link>
+      <Link to="/cadastro-psicologos">Sou psicólogo</Link>
     </SectionImage>
   </Container>
   )
