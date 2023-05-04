@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { Button , Container, MainHeading} from '../../globalStyles';
-import BackgroundHero from "../../assets/svg/background.svg"
+
+import BackgroundHero from "../../assets/svg/backgroundhome.svg"
 
 export const HeroSection = styled.section`
 	display: flex;
@@ -22,7 +22,7 @@ export const HeroWrapper = styled.div`
   
   height: 100%;
 `;
-export const HeroContainer = styled(Container)`
+export const HeroContainer = styled.div`
 	width: 691px;
 	height: 90%;  
 	
@@ -48,7 +48,7 @@ export const HeroContainer = styled(Container)`
   }
 `
 
-export const HeroHeader  = styled(MainHeading)`
+export const HeroHeader  = styled.section`
 	color: #38B6FF;
 	
 `

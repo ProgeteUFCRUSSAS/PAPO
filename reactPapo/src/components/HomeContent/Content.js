@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Container, MainHeading } from '../../globalStyles';
-import Item1 from "../../assets/svg/item1.svg"
-import Item2 from "../../assets/svg/item2.svg"
-import Item3 from "../../assets/svg/item3.svg"
+import Item1 from "../../assets/svg/itemcomodidade.svg"
+import Item2 from "../../assets/svg/itemseguranca.svg"
+import Item3 from "../../assets/svg/itemcredibilidade.svg"
 import {ContentSection, ContentItem, ContentTitle, ContentText, ContentImg, ContentBox} from './ContentStyles';
 
 const Content = () => {
