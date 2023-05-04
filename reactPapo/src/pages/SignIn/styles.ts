@@ -65,7 +65,7 @@ export const SectionFormulario = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: ${(props) => props.theme.colors.cinza};
+  background-color: ${(props) => props.theme.colors.borderGray};
 
   @media (max-width: 900px){
     width: 100%;
@@ -94,7 +94,7 @@ export const Formulario = styled.div`
   @media (max-width: 450px){
     position: absolute;
     top: 20%;
-    background-color: ${(props) => props.theme.colors.cinza};
+    background-color: ${(props) => props.theme.colors.borderGray};
   }
 `
 
