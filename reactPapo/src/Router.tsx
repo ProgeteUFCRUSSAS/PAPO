@@ -4,6 +4,7 @@ import { SignIn } from './pages/SignIn'
 import { Layout } from './components/Layout'
 import { SignOutPsicologos } from './pages/SignOut/Psicologo'
 import { SignOutUsuarios } from './pages/SignOut/Usuario'
+import { Home } from './pages/Home'
 
 export function Router(){
   return(
@@ -16,8 +17,8 @@ export function Router(){
             e depois desmarcar o que foi o que foi comentado apos essa linha. 
             E a cada pagina que for adicionada dever criada apenas seu caminho aqui, 
             pois o Header ira acompanhar em todas*/}
-            <Route path='/' element={<SignIn />}/>
-            {/* <Route path='/signIn' element={<SignIn />} /> */}
+            <Route path='/' element={<Home />}/>
+            <Route path='/login' element={<SignIn />} />
             <Route path='/cadastro-psicologos' element={<SignOutPsicologos />}/>
             <Route path='/cadastro-usuarios' element={<SignOutUsuarios />}/>
           </Route>
