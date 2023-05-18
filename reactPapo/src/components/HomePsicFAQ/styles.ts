@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 export const ContentSection = styled.section`
+
 	background-color: white;
     
     font-family: 'Ruda', sans-serif;
@@ -109,6 +110,7 @@ export const ContentDonate = styled.div`
 `;
 export const ContentTitle = styled.h1`
     color: #38B6FF;
+    text-align:center;
     
 
 `;

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import background from '../../assets/svg/backgroundheropsic.svg';
 
 
 export const HeroSection = styled.section`
@@ -12,7 +13,7 @@ export const HeroSection = styled.section`
 	font-family: 'Ruda', sans-serif;
 	box-shadow: inset 0 0 0 1000px rgba (0, 0, 0, 0.2);
 	color: #38B6FF;
-	
+	background-image: url(${background});
 `;
 export const HeroWrapper = styled.div`
 	width: 600px;

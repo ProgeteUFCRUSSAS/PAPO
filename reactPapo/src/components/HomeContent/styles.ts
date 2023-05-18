@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const ContentSection = styled.section`
+  margin-top: 200px;
   background-color: white;
   height: 100vh;
   font-family: 'Ruda', sans-serif;
@@ -50,4 +51,6 @@ export const ContentText = styled.p`
 `
 export const ContentTitle = styled.h1`
   color: #38b6ff;
+  text-align: center;
+  font-size: 30px;
 `

@@ -1,12 +1,15 @@
 import * as C from './styles'
+import item1 from '../../assets/svg/itemcomodidade.svg';
+import item2 from '../../assets/svg/itemcredibilidade.svg';
+import item3 from '../../assets/svg/itemseguranca.svg';
 
 export function Content(){
 	return (
 		<C.ContentSection>
-			<h1>Beneficios da terapia online</h1>
+			<C.ContentTitle>Beneficios da terapia online</C.ContentTitle>
 			<C.ContentBox>
             <C.ContentItem>
-                <img  alt='IMAGEM ITEM'/>
+                <img src = {item1} alt='IMAGEM ITEM' />
                 <C.ContentTitle>Comodidade e acessibilidade </C.ContentTitle>
                     
                     <C.ContentText>
@@ -16,7 +19,7 @@ export function Content(){
                 
             </C.ContentItem>
             <C.ContentItem>
-                    <img  alt='IMAGEM ITEM'></img>
+                    <img src = {item2}  alt='IMAGEM ITEM'></img>
                     <C.ContentTitle>Segurança </C.ContentTitle>
 
                     <C.ContentText>
@@ -25,7 +28,7 @@ export function Content(){
                 
             </C.ContentItem>
             <C.ContentItem>
-                    <img  alt='IMAGEM ITEM'></img>
+                    <img src = {item3}  alt='IMAGEM ITEM'></img>
                 <C.ContentTitle>Credibilidade </C.ContentTitle>
                     
                     <C.ContentText>
