@@ -15,7 +15,7 @@ export function Header(){
               <Link to="/">Inicio</Link>
            </li>
            <li>
-              <Link to="/">Psicologos</Link>
+              <Link to='/home-psicologo'>Psicologos</Link>
            </li>
            <li>
               <Link to="/login">Entrar</Link>

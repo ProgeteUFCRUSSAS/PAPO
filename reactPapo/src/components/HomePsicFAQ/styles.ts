@@ -3,15 +3,45 @@ import styled from 'styled-components';
 
 export const ContentSection = styled.section`
 	background-color: white;
-    height: 100vh;
-    font-family: 'Ruda', sans-serif;
     
+    font-family: 'Ruda', sans-serif;
+    margin-bottom: 100px;
+    overflow: auto;
+    
+    
+`;
+export const ContentHeader = styled.section`
+
+/* Valores */
+
+position: relative;
+width: 248px;
+height: 80px;
+left: 600px;
+top: 81.58px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 80px;
+/* identical to box height, or 114% */
+display: flex;
+align-items: center;
+text-align: center;
+margin-bottom: 97px;
+
+
+color: #436DFF;
+
+
     
 `;
 
 export const ContentBox = styled.div`
     width: 70%;
-    heigth: 300px;
+    
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

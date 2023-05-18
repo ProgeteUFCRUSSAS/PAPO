@@ -1,56 +1,62 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
-import * as F from './styles'
+import * as PF from './styles'
 
-export function FAQ(){
-	return (
-		<F.ContentSection>
-			<F.ContentTitle>Perguntas frequentes</F.ContentTitle>
-			<F.ContentBox>
-            <F.ContentItem>
+
+
+
+export function PsicFAQ() {
+	return(
+		<PF.ContentSection>
+			<PF.ContentHeader>Perguntas frequentes</PF.ContentHeader>
+			<PF.ContentBox>
+            <PF.ContentItem>
                 
-                <F.ContentTitle>Quanto custa? </F.ContentTitle>
-                    <F.ContentTextWrapper>
-                    <F.ContentText>
+                <PF.ContentTitle>Quanto custa? </PF.ContentTitle>
+                    <PF.ContentTextWrapper>
+                    <PF.ContentText>
                     Atualmente estamos desenvolvendo e o uso das primeiras funcoes primordias sao totalmente gratuitas
-                    </F.ContentText>
-                    </F.ContentTextWrapper>
+                    </PF.ContentText>
+                    </PF.ContentTextWrapper>
                 
-            </F.ContentItem>
-            <F.ContentItem>
+            </PF.ContentItem>
+            <PF.ContentItem>
                 
-                <F.ContentTitle>Quanto custa? </F.ContentTitle>
-                    <F.ContentTextWrapper>
-                    <F.ContentText>
+                <PF.ContentTitle>Quanto custa? </PF.ContentTitle>
+                    <PF.ContentTextWrapper>
+                    <PF.ContentText>
                     Atualmente estamos desenvolvendo e o uso das primeiras funcoes primordias sao totalmente gratuitas
-                    </F.ContentText>
-                    </F.ContentTextWrapper>
+                    </PF.ContentText>
+                    </PF.ContentTextWrapper>
                 
-            </F.ContentItem>
-            <F.ContentItem>
+            </PF.ContentItem>
+            <PF.ContentItem>
                 
-                <F.ContentTitle>Quanto custa? </F.ContentTitle>
-                    <F.ContentTextWrapper>
-                    <F.ContentText>
+                <PF.ContentTitle>Quanto custa? </PF.ContentTitle>
+                    <PF.ContentTextWrapper>
+                    <PF.ContentText>
                     Atualmente estamos desenvolvendo e o uso das primeiras funcoes primordias sao totalmente gratuitas
-                    </F.ContentText>
-                    </F.ContentTextWrapper>
+                    </PF.ContentText>
+                    </PF.ContentTextWrapper>
                 
-            </F.ContentItem>
-            <F.ContentItem>
+            </PF.ContentItem>
+            <PF.ContentItem>
                 
-                <F.ContentTitle>Quanto custa? </F.ContentTitle>
-                    <F.ContentTextWrapper>
-                    <F.ContentText>
+                <PF.ContentTitle>Quanto custa? </PF.ContentTitle>
+                    <PF.ContentTextWrapper>
+                    <PF.ContentText>
                     Atualmente estamos desenvolvendo e o uso das primeiras funcoes primordias sao totalmente gratuitas
-                    </F.ContentText>
-                    </F.ContentTextWrapper>
+                    </PF.ContentText>
+                    </PF.ContentTextWrapper>
                 
-            </F.ContentItem>
+            </PF.ContentItem>
             
             
             
 
-            </F.ContentBox>
-		</F.ContentSection>
-	);
+            </PF.ContentBox>
+		</PF.ContentSection>
+    )
 };
+
+

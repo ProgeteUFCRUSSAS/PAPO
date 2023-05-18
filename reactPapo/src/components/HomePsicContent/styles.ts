@@ -1,12 +1,40 @@
 import styled from 'styled-components';
-import { Button , Container, MainHeading} from '../../globalStyles';
+
+
 
 export const ContentSection = styled.section`
 	background-color: white
     height: 100vh;
     font-family: 'Ruda', sans-serif;
+   
     
 `;
+export const ContentHeader = styled.section`
+/* Valores */
+
+position: relative
+width: 248px;
+height: 80px;
+left: 836px;
+
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 80px;
+/* identical to box height, or 114% */
+
+align-items: center;
+text-align: center;
+letter-spacing: -1.26081px;
+
+color: #436DFF;
+
+
+    
+`;
+
 
 export const ContentBox = styled.div`
     display: flex;

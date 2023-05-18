@@ -1,34 +1,36 @@
-import * as C from './styles'
-
-export function Content(){
-	return (
-		<C.ContentSection>
-			<C.ContentTitle>Valores</C.ContentTitle>
-			<C.ContentBox>
-            <C.ContentItem>
+import React from 'react';
+import * as PC from './styles'
+export function PsicContent(){
+	return(
+		<PC.ContentSection>
+			<PC.ContentHeader>Valores</PC.ContentHeader>
+			<PC.ContentBox>
+            <PC.ContentItem>
                 
-                <C.ContentTitle>Quanto custa? </C.ContentTitle>
-                    <C.ContentCost>
-                    <C.ContentText>
+                <PC.ContentTitle>Quanto custa? </PC.ContentTitle>
+                    <PC.ContentCost>
+                    <PC.ContentText>
                     Atualmente estamos desenvolvendo e o uso das primeiras funcoes primordias sao totalmente gratuitas
-                    </C.ContentText>
-                    </C.ContentCost>
+                    </PC.ContentText>
+                    </PC.ContentCost>
                 
-            </C.ContentItem>
-            <C.ContentItem>
+            </PC.ContentItem>
+            <PC.ContentItem>
                   
-                    <C.ContentTitle>Quer ajudar? </C.ContentTitle>
-                    <C.ContentDonate>
-                    <C.ContentText>
+                    <PC.ContentTitle>Quer ajudar? </PC.ContentTitle>
+                    <PC.ContentDonate>
+                    <PC.ContentText>
                     Doe e financie o projeto a crescer muito mais  
-                    </C.ContentText>
-                    </C.ContentDonate>
+                    </PC.ContentText>
+                    </PC.ContentDonate>
                 
-            </C.ContentItem>
+            </PC.ContentItem>
             
             
 
-            </C.ContentBox>
-		</C.ContentSection>
-	);
+            </PC.ContentBox>
+		</PC.ContentSection>
+    )
 };
+
+
