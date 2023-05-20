@@ -15,11 +15,11 @@ export const ContentHeader = styled.section`
 
 /* Valores */
 
-position: relative;
+position: relative
 width: 248px;
 height: 80px;
-left: 600px;
-top: 81.58px;
+left: 836px;
+
 
 font-family: 'Ubuntu';
 font-style: normal;
@@ -27,11 +27,10 @@ font-weight: 700;
 font-size: 70px;
 line-height: 80px;
 /* identical to box height, or 114% */
-display: flex;
+
 align-items: center;
 text-align: center;
-margin-bottom: 97px;
-
+letter-spacing: -1.26081px;
 
 color: #436DFF;
 

@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const ContentSection = styled.section`
-  margin-top: 200px;
+  margin: 200px;
   background-color: white;
-  height: 100vh;
+  
   font-family: 'Ruda', sans-serif;
 `
 

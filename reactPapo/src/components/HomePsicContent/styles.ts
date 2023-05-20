@@ -7,6 +7,7 @@ export const ContentSection = styled.section`
 	background-color: white
     height: 100vh;
     font-family: 'Ruda', sans-serif;
+    margin: 100px;
    
     
 `;

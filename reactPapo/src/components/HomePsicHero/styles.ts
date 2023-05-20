@@ -5,29 +5,33 @@ import background from '../../assets/svg/backgroundheropsic.svg';
 export const HeroSection = styled.section`
 	display: flex;
 	
-	height: 100vh;
+	
 	background-position: center;
 	background-size: cover;
+	
 	
 	
 	font-family: 'Ruda', sans-serif;
 	box-shadow: inset 0 0 0 1000px rgba (0, 0, 0, 0.2);
 	color: #38B6FF;
+	height: calc (100vh - 100px);
 	background-image: url(${background});
+	overflow: auto;
 `;
 export const HeroWrapper = styled.div`
 	width: 600px;
-	margin-left: 135px;
-	padding-top: 80px;
-	height: 700px;  
+	margin: 135px;
+
+	
   	display: flex;
   	align-items: center;
-  	height: 100%;
+  	
+	
 `;
 export const HeroContainer = styled.div`
 	
-	width: 6000px;
-	height: 600px;
+
+	
 	
   	border-radius: 27.3772px;
  
@@ -37,6 +41,7 @@ export const HeroContainer = styled.div`
   	flex-direction: column;
   	justify-content: center;
   	align-items: center;
+	
 	
 
   p{
@@ -48,27 +53,49 @@ export const HeroContainer = styled.div`
   }
 `
 
-export const HeroTitle = styled.h1`
-	color: #38B6FF;
-	font-size: 40px;
-	padding: 20px;
-	width: 559px;
-	text-align: center;
+
+export const HeroTitle = styled.p`
+/* Plataforma de atendimento psicológico online */
+
+
+width: 611.87px;
+height: 246px;
+left: 40.52px;
+top: 88.7px;
+
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 900;
+font-size: 67.6534px;
+line-height: 82px;
+display: flex;
+
+text-align: center;
+
+color: #38B6FF;
+margin: 30px;
+
 `
 
 
 export const HeroText = styled.h2`
-	margin-bottom: 35px;
-	font-size: clamp(0.9rem, 1.5vw, 1.3rem);
-	line-height: 24px;
-	text-align: center;
-	letter-spacing: 2px;
-	color: #38B6FF;
-	padding: 20px;
-	width: 600px;
-	text-align: center;
-	font-size: 30px;
-	
+width: 611.87px;
+height: 136.3px;
+left: 31.76px;
+top: 385.53px;
+
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 700;
+font-size: 31.8369px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #38B6FF;
+margin: 30px;
+
 	
 `;
 export const HeroBox = styled.p`
@@ -110,6 +137,7 @@ export const ButtonWrapper = styled.div`
 	justify-content: center;
 	flex-flow: wrap;
 	gap: 0.5rem;
+	margin: 50px;
 	
 `;
 
