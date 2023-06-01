@@ -15,7 +15,7 @@ export const HeroSection = styled.section`
 	color: #38B6FF;
 	height: calc (100vh - 100px);
 	background-image: url(${background});
-	overflow: auto;
+	// overflow: auto;
 	
 `;
 export const HeroWrapper = styled.div`
