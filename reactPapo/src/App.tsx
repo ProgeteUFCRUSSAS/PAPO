@@ -8,8 +8,6 @@ import { defaultTheme } from './styles/Themes/defaultTheme'
 import AuthProvider from './contexts/authUser'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <AuthProvider>
       <ThemeProvider theme={defaultTheme}>

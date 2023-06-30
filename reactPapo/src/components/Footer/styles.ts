@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Footer = styled.footer`
-  width: 100%;
-  height: 350px;
+  max-width: 100vw;
+  min-height: 350px;
   background: ${props => props.theme.colors.primary};
 
   display: flex;
@@ -19,7 +19,7 @@ export const SectionLinks = styled.div`
   justify-content: space-around;
   color: #ffff;
 
-  ul{
+  ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -27,11 +27,11 @@ export const SectionLinks = styled.div`
     gap: 30px;
     font-size: 20px;
 
-    p{
+    p {
       font-weight: 700;
     }
 
-    a{
+    a {
       text-decoration: none;
       color: #ffff;
     }
@@ -46,24 +46,29 @@ export const SectionCopyright = styled.div`
   color: #ffff;
   margin-bottom: 10px;
 
-  a{
+  a {
     text-decoration: none;
     font-weight: 700;
     color: #ffff;
   }
 
-  img{
+  img {
     width: 60px;
     height: 60px;
   }
-` 
+
+  span {
+    font-weight: 800;
+    color: #ffff;
+  }
+`
 
 export const RedesSociais = styled.div`
   display: flex;
   align-items: center;
   gap: 5px;
 
-  img{
+  img {
     width: 25px;
     height: 25px;
   }

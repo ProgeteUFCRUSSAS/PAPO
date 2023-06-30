@@ -1,23 +1,23 @@
 import styled from 'styled-components'
 
 export const ContentSection = styled.section`
+  width: 100%;
   margin: 200px;
   background-color: white;
-  
+
   font-family: 'Ruda', sans-serif;
 `
 
 export const ContentBox = styled.div`
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
   display: flex;
-  flex-direction: row;
   gap: 0;
   padding: 0.25rem;
   align-items: center;
-  grid-area: content;
-  margin: 0 auto;
-  justify-content: space-between;
-  width: 1370.5px;
-  height: 543.41px;
+  justify-content: space-around;
+
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }
@@ -33,6 +33,7 @@ export const ContentItem = styled.div`
   width: 25vw;
   height: 100%;
   background-color: white;
+
   @media screen and (max-width: 768px) {
     width: 100%;
     max-width: 100%;

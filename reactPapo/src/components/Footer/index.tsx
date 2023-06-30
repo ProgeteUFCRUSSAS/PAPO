@@ -4,8 +4,8 @@ import Facebook from '../../assets/facebook.svg'
 import Instagram from '../../assets/intagram.svg'
 import Linkedin from '../../assets/linkedin.svg'
 
-export function Footer(){
-  return(
+export function Footer() {
+  return (
     <F.Footer>
       <F.SectionLinks>
         <ul>
@@ -24,10 +24,10 @@ export function Footer(){
             <a href="mailto:progeteufc@gmail.com">progeteufc@gmail.com</a>
           </li>
         </ul>
-        <ul>
+        {/* <ul>
           <li>
-            <p>Duvidas (psicólogo)</p>  
-          </li> 
+            <p>Duvidas (psicólogo)</p>
+          </li>
           <li>
             <a href="">Termos de uso</a>
           </li>
@@ -51,27 +51,37 @@ export function Footer(){
           <li>
             <a href="">Pagamento e valores</a>
           </li>
+        </ul> */}
+        <ul>
+          <li>
+            <p>Trabalhe conosco</p>
+          </li>
+          <li>
+            <a href="">Sou psicólogo(a)</a>
+          </li>
         </ul>
       </F.SectionLinks>
 
       <F.SectionCopyright>
         <img src={ImageLogo} alt="" />
-        <p>
+        {/* <p>
           Fale conosco: <a href="mailto:progeteufcrussas@gmail.com">progeteufcrussas@gmail.com</a>
+        </p> */}
+        <p>
+          PRODUTO DESENVOLVIDO POR <span>PROGETE</span>
         </p>
-
         <F.RedesSociais>
           <p>Siga a gente: </p>
 
-          <a href="https://facebook.com" target='_blank'>
-            <img src={Facebook} alt="Página Facebook"/>
+          <a href="https://facebook.com" target="_blank">
+            <img src={Facebook} alt="Página Facebook" />
           </a>
 
-          <a href="https://instagram.com" target='_blank'>
+          <a href="https://instagram.com" target="_blank">
             <img src={Instagram} alt="Página Instagram" />
           </a>
 
-          <a href="https://linkedin.com" target='_blank'>
+          <a href="https://linkedin.com" target="_blank">
             <img src={Linkedin} alt="Página Linkedin" />
           </a>
         </F.RedesSociais>

@@ -1,27 +1,29 @@
 import { Fragment } from 'react'
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { SignIn } from './pages/SignIn'
 import { Layout } from './components/Layout'
 import { SignOutPsicologos } from './pages/SignOut/Psicologo'
 import { SignOutUsuarios } from './pages/SignOut/Usuario'
 import { Home } from './pages/Home'
 import { HomePsic } from './pages/HomePsic'
-export function Router(){
-  return(
+import SignOutPage from './pages/SignOut'
+SignOutPage
+
+export function Router() {
+  return (
     <BrowserRouter>
       <Fragment>
         <Routes>
-          <Route path='/' element={<Layout />}>
-            {/* Quando a pagina inicio for criada deve 
-            importar ela aqui e colocar ela no lugar de SignIn no path="/", 
-            e depois desmarcar o que foi o que foi comentado apos essa linha. 
-            E a cada pagina que for adicionada dever criada apenas seu caminho aqui, 
-            pois o Header ira acompanhar em todas*/}
-            <Route path='/' element={<Home />}/>
-            <Route path='/home-psicologo' element={<HomePsic />}/>
-            <Route path='/login' element={<SignIn />} />
-            <Route path='/cadastro-psicologos' element={<SignOutPsicologos />}/>
-            <Route path='/cadastro-usuarios' element={<SignOutUsuarios />}/>
+          <Route path="/" element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/home-psicologo" element={<HomePsic />} />
+            <Route path="/login" element={<SignIn />} />
+            <Route
+              path="/cadastro-psicologos"
+              element={<SignOutPsicologos />}
+            />
+            <Route path="/cadastro-usuarios" element={<SignOutUsuarios />} />
+            <Route path="/signOut" element={<SignOutPage />} />
           </Route>
         </Routes>
       </Fragment>
