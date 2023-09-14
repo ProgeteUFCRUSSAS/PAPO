@@ -1,8 +1,13 @@
 import * as H from './styles'
 import LogoImage from '../../../assets/logo.svg'
 import { Link } from 'react-router-dom'
+import { RiMenu3Fill } from 'react-icons/ri'
 
-export function Header() {
+interface IHeaderProps {
+  setMenuIsVisible: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+export function Header({ setMenuIsVisible }: IHeaderProps) {
   return (
     <H.HeaderContainer>
       <Link to="/">
@@ -25,6 +30,11 @@ export function Header() {
           </li>
         </ul>
       </H.NavContainer>
+      <RiMenu3Fill
+        className="mobile"
+        size={44}
+        onClick={() => setMenuIsVisible(true)}
+      />
     </H.HeaderContainer>
   )
 }

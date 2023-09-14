@@ -10,6 +10,26 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   margin: 0 35px;
   margin-bottom: 35px;
+
+  .mobile {
+    display: none;
+    color: #38b6ff;
+    cursor: pointer;
+  }
+
+  @media (max-width: 900px) {
+    .mobile {
+      display: initial;
+    }
+
+    > nav {
+      display: none;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+  }
 `
 
 export const Logo = styled.img`
