@@ -107,7 +107,6 @@ export const HomeContent = styled.div`
       justify-content: space-around;
       
     }
-
     .waves {
       position: absolute;
       bottom: 0;
