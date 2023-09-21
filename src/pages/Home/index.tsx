@@ -12,15 +12,7 @@ export function Home() {
   return (
     <>
       <HomeContent>
-        <div
-          style={{
-            width: '100%',
-            height: '600px',
-            display: 'flex',
-            alignItems: 'start',
-            justifyContent: 'space-around'
-          }}
-        >
+        <div className = "content">
           <TextContent>
             <h1>Plataforma de atendimento psicológico online</h1>
             <p>
@@ -29,7 +21,7 @@ export function Home() {
             </p>
           </TextContent>
 
-          <img src={Peoples} alt="" />
+          <img src={Peoples} alt="" className='peoples' />
         </div>
         <img src={Waves} alt="Imagem background ondas" className="waves" />
       </HomeContent>
