@@ -1,12 +1,18 @@
-import { AboutContent, HomeContent, TextContent, Title } from './style'
+import {
+  AboutContent,
+  HomeContent,
+  TextContent,
+  Title,
+  ContainerDefault
+} from './style'
 import { Footer } from '../../components/Footer'
-import { Content } from '../../components/HomeContent'
 import { Hero } from '../../components/HomeHero'
 import Waves from '../../assets/waves.svg'
 import Peoples from '../../assets/psicologa.svg'
 import Atendent from '../../assets/atendent.svg'
 import Valores from '../../components/Valores'
 import Faq from '../../components/Faq'
+import { Benefits } from '../../components/Benefits'
 
 export function Home() {
   return (
@@ -60,21 +66,21 @@ export function Home() {
         />
       </AboutContent>
 
-      <HomeContent>
-        <Title textColor="">Beneficios da terapia online</Title>
-        <Content />
+      <ContainerDefault textColor="">
+        <p className="text-container">Beneficios da terapia online</p>
+        <Benefits />
         <img src={Waves} alt="Imagem background ondas" className="waves" />
-      </HomeContent>
+      </ContainerDefault>
 
       <AboutContent>
         <Title textColor="primary">Valores</Title>
         <Valores />
       </AboutContent>
 
-      <HomeContent>
-        <Title textColor="">Perguntas frequentes</Title>
+      <ContainerDefault textColor="">
+        <p className="text-container">Perguntas frequentes</p>
         <Faq />
-      </HomeContent>
+      </ContainerDefault>
 
       <Footer />
     </>

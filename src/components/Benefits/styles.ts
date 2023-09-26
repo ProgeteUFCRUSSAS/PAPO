@@ -1,25 +1,25 @@
 import styled from 'styled-components'
 
-export const ContentSection = styled.section`
-  width: 100%;
-  margin: 200px;
-  background-color: white;
-
-  font-family: 'Ruda', sans-serif;
-`
-
 export const ContentBox = styled.div`
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  display: flex;
   gap: 0;
   padding: 0.25rem;
+  display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 
-  @media screen and (max-width: 768px) {
+  @media (max-width: 800px) {
+    width: 100%;
     flex-direction: column;
+  }
+
+  @media (min-width: 770px) and (max-width: 800px) {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
   }
 `
 export const ContentItem = styled.div`
@@ -30,11 +30,11 @@ export const ContentItem = styled.div`
   gap: 15px;
   background: #a6b8b9;
   padding: 1rem;
-  width: 25vw;
+  width: 30%;
   height: 100%;
   background-color: white;
 
-  @media screen and (max-width: 768px) {
+  @media (max-width: 800px) {
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -48,7 +48,13 @@ export const ContentItem = styled.div`
 `
 
 export const ContentText = styled.p`
+  width: 100%;
   color: #4b4b4b;
+  text-align: center;
+
+  @media (max-width: 800px) and (min-width: 599px) {
+    width: 50%;
+  }
 `
 export const ContentTitle = styled.h1`
   color: #38b6ff;

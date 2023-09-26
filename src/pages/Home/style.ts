@@ -104,3 +104,35 @@ export const AboutContent = styled(HomeContent)`
     color: #ffffff;
   }
 `
+
+export const ContainerDefault = styled.div<ITitleProps>`
+  position: relative;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+  .text-container {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 82px;
+    text-align: center;
+
+    ${props =>
+      props.textColor === 'primary'
+        ? css`
+            color: #ffffff;
+          `
+        : css`
+            color: #38b6ff;
+          `}
+  }
+
+  @media (max-width: 455px) {
+    .text-container {
+      line-height: 50px;
+      font-size: 40px;
+    }
+  }
+`
