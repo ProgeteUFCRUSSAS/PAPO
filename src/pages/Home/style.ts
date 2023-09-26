@@ -36,7 +36,6 @@ export const HomeContent = styled.div`
   position: relative;
   max-width: 100vw;
   display: flex;
-  border: solid 1px;
   
   .content {
       width: 100%;
