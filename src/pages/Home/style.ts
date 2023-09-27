@@ -49,7 +49,7 @@ export const HomeContent = styled.div`
       bottom: 0;
     }
       
-  @media(max-width: 450px){
+  @media(max-width: 451px){
     height: 80vh;
     align-items: center;
     
@@ -119,7 +119,7 @@ export const TextContent = styled.div`
       color: #38b6ff;
     }
 
-  @media(max-width: 450px){       
+  @media(max-width: 451px){       
     h1 {
       font-size: 30px;
       line-height: 50px;     
