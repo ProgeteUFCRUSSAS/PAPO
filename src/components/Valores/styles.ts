@@ -9,7 +9,7 @@ export const Card = styled.div`
   padding: 0.925rem 0.625rem;
 
   @media (min-width: 20rem) and (max-width: 28.125rem) {
-      width: 95%;
+      width: 95%; 
       height: 15%;
       border-radius: 1.25rem;
       padding: 0.3rem 0.425rem;
