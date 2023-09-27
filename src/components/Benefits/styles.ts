@@ -10,16 +10,19 @@ export const ContentBox = styled.div`
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 200px;
 
   @media (max-width: 800px) {
     width: 100%;
     flex-direction: column;
+    margin-bottom: 100px;
   }
 
   @media (min-width: 770px) and (max-width: 800px) {
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
+    margin-bottom: 100px;
   }
 `
 export const ContentItem = styled.div`

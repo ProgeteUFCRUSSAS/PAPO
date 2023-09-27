@@ -74,7 +74,7 @@ export function Home() {
 
       <AboutContent>
         <Title textColor="primary">Valores</Title>
-        <Valores />
+        {/* <Valores /> */}
       </AboutContent>
 
       <ContainerDefault textColor="">

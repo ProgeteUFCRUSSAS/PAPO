@@ -129,6 +129,11 @@ export const ContainerDefault = styled.div<ITitleProps>`
           `}
   }
 
+  .waves {
+    position: absolute;
+    bottom: 0;
+  }
+
   @media (max-width: 455px) {
     .text-container {
       line-height: 50px;
