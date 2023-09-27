@@ -49,7 +49,7 @@ export const HomeContent = styled.div`
       bottom: 0;
     }
       
-  @media(max-width: 414px){
+  @media(max-width: 450px){
     height: 80vh;
     align-items: center;
     
@@ -64,7 +64,7 @@ export const HomeContent = styled.div`
     }  
   }
 
-  @media(min-width: 800px) and (max-width: 1279px) {
+  @media(min-width: 600px) and (max-width: 1279px) {
     .content {
       width: 100%;
       margin-bottom: 100px; 
@@ -119,7 +119,7 @@ export const TextContent = styled.div`
       color: #38b6ff;
     }
 
-  @media(max-width: 414px){       
+  @media(max-width: 450px){       
     h1 {
       font-size: 30px;
       line-height: 50px;     
@@ -131,7 +131,7 @@ export const TextContent = styled.div`
     }
   }
 
-  @media(min-width: 800px) and (max-width: 1279px){
+  @media(min-width: 600px) and (max-width: 1279px){
     h1 {     
       font-size: 60px;
       line-height: 80px;
