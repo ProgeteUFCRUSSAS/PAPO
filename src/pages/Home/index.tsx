@@ -18,7 +18,7 @@ export function Home() {
   return (
     <>
       <HomeContent>
-        <div className = "content">
+        <div className="content">
           <TextContent>
             <h1>Plataforma de atendimento psicológico online</h1>
             <p>
@@ -27,12 +27,12 @@ export function Home() {
             </p>
           </TextContent>
 
-          <img src={Peoples} alt="" className='peoples' />
+          <img src={Peoples} alt="" className="peoples" />
         </div>
         <img src={Waves} alt="Imagem background ondas" className="waves" />
       </HomeContent>
 
-      <AboutContent className='About'>
+      <AboutContent className="About">
         <Title textColor="primary">Como funciona o atendimento online?</Title>
         <div className="text-about-area">
           <p>
@@ -41,19 +41,18 @@ export function Home() {
             dados e informações trocados nela. <br /> <br />
             Nenhuma sessão é gravada, respeitando o princípio da
             confidencialidade entre psicólogo e cliente.
-            <br /><br />
-            A segurança garantida pela terapia online permite que você converse
-            com seu psicólogo de qualquer lugar conectado à internet, com
-            tranquilidade.
+            <br />
+            <br />A segurança garantida pela terapia online permite que você
+            converse com seu psicólogo de qualquer lugar conectado à internet,
+            com tranquilidade.
           </p>
         </div>
-        <img className = "Atendent"
+        <img
+          className="Atendent"
           src={Atendent}
           alt="Imagem pessoa sentada com uso de um computador na mesa"
           width={400}
-          />
-
-        
+        />
       </AboutContent>
 
       <ContainerDefault textColor="">

@@ -324,6 +324,7 @@ export const ContainerDefault = styled.div<ITitleProps>`
   }
 
   .waves {
+    width: 100%;
     position: absolute;
     bottom: 0;
   }
