@@ -1,9 +1,9 @@
-import * as C from './styles'
 import item1 from '../../assets/svg/itemcomodidade.svg'
 import item2 from '../../assets/svg/itemcredibilidade.svg'
 import item3 from '../../assets/svg/itemseguranca.svg'
+import * as C from './styles'
 
-export function Content() {
+export function Benefits() {
   return (
     <C.ContentBox>
       <C.ContentItem>
@@ -15,6 +15,7 @@ export function Content() {
           marcar consultas presenciais ou online a sua escolha.
         </C.ContentText>
       </C.ContentItem>
+
       <C.ContentItem>
         <img src={item2} alt="IMAGEM ITEM"></img>
         <C.ContentTitle>Segurança </C.ContentTitle>
@@ -24,6 +25,7 @@ export function Content() {
           confidencialidade pelo profissional e pelo PAPO
         </C.ContentText>
       </C.ContentItem>
+
       <C.ContentItem>
         <img src={item3} alt="IMAGEM ITEM"></img>
         <C.ContentTitle>Credibilidade </C.ContentTitle>
