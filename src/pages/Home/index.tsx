@@ -34,30 +34,28 @@ export function Home() {
         <img src={Waves} alt="Imagem background ondas" className="waves" />
       </HomeContent>
 
-      <AboutContent>
+      <AboutContent className='About'>
         <Title textColor="primary">Como funciona o atendimento online?</Title>
         <div className="text-about-area">
           <p>
             No PAPO você encontra um ambiente 100% seguro, exclusivo para o seu
             atendimento. Somente você e o psicólogo tem acesso à sessão e aos
-            dados e informações trocados nela.
-          </p>
-          <p>
+            dados e informações trocados nela. <br /> <br />
             Nenhuma sessão é gravada, respeitando o princípio da
             confidencialidade entre psicólogo e cliente.
-          </p>
-          <p>
+            <br /><br />
             A segurança garantida pela terapia online permite que você converse
             com seu psicólogo de qualquer lugar conectado à internet, com
             tranquilidade.
           </p>
         </div>
-
-        <img
+        <img className = "Atendent"
           src={Atendent}
           alt="Imagem pessoa sentada com uso de um computador na mesa"
           width={400}
-        />
+          />
+
+        
       </AboutContent>
 
       <HomeContent>
