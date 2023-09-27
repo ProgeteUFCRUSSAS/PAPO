@@ -20,6 +20,10 @@ export const ContentBox = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    border: 1px solid red;
+    justify-content: center;
+    gap: 50px;
+    
   }
 `
 export const ContentItem = styled.div`
