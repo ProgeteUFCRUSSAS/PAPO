@@ -3,12 +3,10 @@ import styled from 'styled-components'
 export const HeaderContainer = styled.header`
   max-width: 100vw;
   height: 70px;
-  z-index: 2;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 35px;
   margin-bottom: 35px;
 
   .mobile {

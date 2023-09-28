@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components'
 
 interface ITitleProps {
   textColor: string
+  backgroundColor: string
 }
 
 export const Title = styled.h1<ITitleProps>`
@@ -170,24 +171,25 @@ export const TextContent = styled.div`
   }
 `
 
-export const AboutContent = styled(HomeContent)`
+export const AboutContent = styled.div`
   max-width: 100vw;
   background-color: #38b6ff;
-
   display: flex;
+  flex-direction: column;
+  gap: 20px;
   align-items: center;
   justify-content: space-around;
 
   .text-about-area {
     width: 60%;
     height: 50%;
-    
+
     max-width: 60rem;
-    margin: 0 auto
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     gap: 1.875rem;
+
+    padding: 10px;
   }
 
   p {
@@ -201,98 +203,89 @@ export const AboutContent = styled(HomeContent)`
     color: #ffffff;
   }
 
-  @media(max-width: 1200px) {
+  @media (max-width: 1200px) {
     .text-about-area {
-      width: 60%; 
-      height: 60%
-
+      width: 60%;
+      height: 60%;
     }
 
-    .Atendent{
-      width: 18em;
+    .Atendent {
+      width: 18rem;
     }
-    
-    h1{
+
+    h1 {
       font-size: 3rem;
     }
 
     p {
-      font-size: 1.8rem; /* Reduza o tamanho da fonte para telas menores */
-      line-height: 2.5rem; /* Ajuste a altura da linha para telas menores */
+      font-size: 1.8rem;
+      line-height: 2.5rem;
     }
-
   }
 
-  @media (max-width: 919px){  
-    
-    .text-about-area{
+  @media (max-width: 919px) {
+    .text-about-area {
       order: 1;
       height: 80%;
     }
-    
-    h1{
+
+    h1 {
       font-size: 2.2rem;
     }
 
-    p{
+    p {
       font-size: 1.6rem;
     }
 
-    .Atendent{
+    .Atendent {
       width: 15rem;
       order: 2;
     }
+  }
 
-    @media(max-width: 770px){
-
-    .text-about-area{
-      width: 100%
+  @media (max-width: 770px) {
+    .text-about-area {
+      width: 100%;
       height: 70%;
       order: 1;
-      
     }
-    
-    h1{
+
+    h1 {
       font-size: 2rem;
     }
 
-    p{
+    p {
       font-size: 1.4rem;
       line-height: 2rem;
     }
 
-    .Atendent{
+    .Atendent {
       height: 90%;
       width: 12rem;
       order: 2;
     }
   }
 
-  @media (max-width: 610px){
-      
-    flex-direction: column;
-
-    .text-about-area{
+  @media (max-width: 610px) {
+    .text-about-area {
       width: 90%;
       row-gap: 10px;
       height: 20%;
       order: 1;
-      
     }
-    
-    h1{
+
+    h1 {
       font-size: 1rem;
       margin-left: 3px;
-
     }
 
-    p{
+    p {
       height: 280%;
       font-size: 0.8rem;
       line-height: 1rem;
     }
 
-    .Atendent{
+    .Atendent {
       width: 10rem;
       order: 2;
     }
@@ -304,6 +297,15 @@ export const ContainerDefault = styled.div<ITitleProps>`
   max-width: 100vw;
   display: flex;
   flex-direction: column;
+
+  ${props =>
+    props.backgroundColor === 'primary'
+      ? css`
+          background-color: #ffffff;
+        `
+      : css`
+          background-color: #38b6ff;
+        `}
 
   .text-container {
     font-family: 'Ruda', sans-serif;
@@ -327,6 +329,60 @@ export const ContainerDefault = styled.div<ITitleProps>`
     width: 100%;
     position: absolute;
     bottom: 0;
+  }
+
+  .about {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .text-about-area {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .text-about-area p {
+    font-family: 'Ruda', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+
+  @media (max-width: 800px) {
+    .text-about-area {
+      margin-bottom: 20px;
+    }
+
+    .text-about-area p {
+      font-size: 30px;
+      line-height: 30px;
+      text-align: center;
+    }
+
+    .about {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .text-about-area {
+      margin-bottom: 20px;
+    }
+
+    .text-about-area p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .about {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   @media (max-width: 455px) {

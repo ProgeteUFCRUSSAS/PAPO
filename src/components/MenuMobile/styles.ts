@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components'
 
 interface IContainerProps {
   isVisible: boolean
@@ -7,8 +7,8 @@ interface IContainerProps {
 export const Container = styled.section<IContainerProps>`
   position: absolute;
   backdrop-filter: blur(3px);
-  width: 100%;
-  height: 100%;
+  max-width: 100vw;
+  height: 100vh;
   top: 0;
   left: 0;
   right: 0;
@@ -18,51 +18,57 @@ export const Container = styled.section<IContainerProps>`
   align-items: center;
   justify-content: center;
   color: #fff;
-  background: rgb(23,25,35);
-  background: linear-gradient(172deg, rgba(23,25,35,1) 0%, rgba(23,25,35,0.70) 100%);
+  background: rgb(23, 25, 35);
+  background: linear-gradient(
+    172deg,
+    rgba(23, 25, 35, 1) 0%,
+    rgba(23, 25, 35, 0.7) 100%
+  );
 
   opacity: 0;
   pointer-events: none;
   transform: translateY(50px);
 
-  transition: .5s;
+  transition: 0.5s;
 
-  >svg{
+  > svg {
     position: absolute;
     top: 1rem;
     right: 1rem;
     transform: rotate(45deg);
-    transition: .7s;
+    transition: 0.7s;
   }
 
-  nav{
+  nav {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
     transform: scale(0.7);
-    transition: .7s;
+    transition: 0.7s;
   }
 
-  a{
+  a {
     cursor: pointer;
     text-decoration: none;
     color: #fff;
     font-size: 25px;
   }
 
-  ${({isVisible}) => isVisible && css`
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateY(0px);
+  ${({ isVisible }) =>
+    isVisible &&
+    css`
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0px);
 
-    >svg{
-      transform: rotate(0deg);
-    }
+      > svg {
+        transform: rotate(0deg);
+      }
 
-    nav{
-      transform: scale(1);
-    }
-  `}
+      nav {
+        transform: scale(1);
+      }
+    `}
 `

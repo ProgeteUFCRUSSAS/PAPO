@@ -9,6 +9,10 @@ export const Footer = styled.footer`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 600px) {
+    gap: 50px;
+  }
 `
 
 export const SectionLinks = styled.div`
@@ -36,6 +40,13 @@ export const SectionLinks = styled.div`
       color: #ffff;
     }
   }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 30px;
+  }
 `
 
 export const SectionCopyright = styled.div`
@@ -60,6 +71,13 @@ export const SectionCopyright = styled.div`
   span {
     font-weight: 800;
     color: #ffff;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 30px;
   }
 `
 

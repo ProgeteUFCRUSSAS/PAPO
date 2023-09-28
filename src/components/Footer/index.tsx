@@ -24,34 +24,6 @@ export function Footer() {
             <a href="mailto:progeteufc@gmail.com">progeteufc@gmail.com</a>
           </li>
         </ul>
-        {/* <ul>
-          <li>
-            <p>Duvidas (psicólogo)</p>
-          </li>
-          <li>
-            <a href="">Termos de uso</a>
-          </li>
-          <li>
-            <a href="">Dúvida frequentes</a>
-          </li>
-          <li>
-            <a href="">Pagamento e valores</a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <p>Duvidas (paciente)</p>
-          </li>
-          <li>
-            <a href="">Termos de uso</a>
-          </li>
-          <li>
-            <a href="">Dúvida frequentes</a>
-          </li>
-          <li>
-            <a href="">Pagamento e valores</a>
-          </li>
-        </ul> */}
         <ul>
           <li>
             <p>Trabalhe conosco</p>
@@ -64,9 +36,6 @@ export function Footer() {
 
       <F.SectionCopyright>
         <img src={ImageLogo} alt="" />
-        {/* <p>
-          Fale conosco: <a href="mailto:progeteufcrussas@gmail.com">progeteufcrussas@gmail.com</a>
-        </p> */}
         <p>
           PRODUTO DESENVOLVIDO POR <span>PROGETE</span>
         </p>
