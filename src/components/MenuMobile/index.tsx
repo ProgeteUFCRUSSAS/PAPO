@@ -1,6 +1,7 @@
 import { Container } from './styles'
 import { IoClose } from 'react-icons/io5'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 interface IMenuMobileProps {
   menuIsVisible: boolean
@@ -23,18 +24,27 @@ export function MenuMobile({
         style={{ color: '#38B6FF', cursor: 'pointer' }}
       />
       <nav>
-        <a href="" onClick={() => setMenuIsVisible(prevState => !prevState)}>
+        <Link to="/" onClick={() => setMenuIsVisible(prevState => !prevState)}>
           Inicio
-        </a>
-        <a href="" onClick={() => setMenuIsVisible(prevState => !prevState)}>
+        </Link>
+        <Link
+          to="/psicologos"
+          onClick={() => setMenuIsVisible(prevState => !prevState)}
+        >
           Psicologos
-        </a>
-        <a href="" onClick={() => setMenuIsVisible(prevState => !prevState)}>
+        </Link>
+        <Link
+          to="/login"
+          onClick={() => setMenuIsVisible(prevState => !prevState)}
+        >
           Entrar
-        </a>
-        <a href="" onClick={() => setMenuIsVisible(prevState => !prevState)}>
+        </Link>
+        <Link
+          to="/registrar-se"
+          onClick={() => setMenuIsVisible(prevState => !prevState)}
+        >
           Cadastrar
-        </a>
+        </Link>
       </nav>
     </Container>
   )

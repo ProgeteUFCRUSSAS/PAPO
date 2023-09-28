@@ -16,14 +16,14 @@ export function Router() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/" element={<Home />} />
-            <Route path="/psicologo" element={<HomePsic />} />
+            <Route path="/psicologos" element={<HomePsic />} />
             <Route path="/login" element={<SignIn />} />
             <Route
               path="/cadastro-psicologos"
               element={<SignOutPsicologos />}
             />
             <Route path="/cadastro-usuarios" element={<SignOutUsuarios />} />
-            <Route path="/signOut" element={<SignOutPage />} />
+            <Route path="/registrar-se" element={<SignOutPage />} />
           </Route>
         </Routes>
       </Fragment>

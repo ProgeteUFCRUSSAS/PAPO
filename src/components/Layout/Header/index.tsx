@@ -20,13 +20,13 @@ export function Header({ setMenuIsVisible }: IHeaderProps) {
             <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/psicologo">Psicologos</Link>
+            <Link to="/psicologos">Psicologos</Link>
           </li>
           <li>
             <Link to="/login">Entrar</Link>
           </li>
           <li>
-            <Link to="/signOut">Cadastrar</Link>
+            <Link to="/registrar-se">Cadastrar</Link>
           </li>
         </ul>
       </H.NavContainer>
