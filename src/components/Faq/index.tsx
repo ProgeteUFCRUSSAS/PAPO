@@ -14,31 +14,31 @@ export default function Faq() {
       </Card>
 
       <Card>
-        <LabelCard>Quanto custa cada sessão ?</LabelCard>
+        <LabelCard>Qual valor do sistema ?</LabelCard>
         <TextContainer>
           <p>
-            O valor de cada sessão é combinado com cada psicólogo, tendo seus
-            próprios valores e tipos de consultas
+            Atualmente o sistema está disponível gratuitamente, mas temos custos
+            e você pode ajudar a gente doando!
           </p>
         </TextContainer>
       </Card>
 
       <Card>
-        <LabelCard>Quanto custa cada sessão ?</LabelCard>
+        <LabelCard>Como serão tratados meus dados ?</LabelCard>
         <TextContainer>
           <p>
-            O valor de cada sessão é combinado com cada psicólogo, tendo seus
-            próprios valores e tipos de consultas
+            Seus dados são tratados com total confidencialidade e somente você e
+            o psicólogo terão acessos as sessões
           </p>
         </TextContainer>
       </Card>
 
       <Card>
-        <LabelCard>Quanto custa cada sessão ?</LabelCard>
+        <LabelCard>Quais futuras atualizações ?</LabelCard>
         <TextContainer>
           <p>
-            O valor de cada sessão é combinado com cada psicólogo, tendo seus
-            próprios valores e tipos de consultas
+            Queremos implementar diversas funções que possam ajudar o psicólogo
+            a facilitar a gestão
           </p>
         </TextContainer>
       </Card>
