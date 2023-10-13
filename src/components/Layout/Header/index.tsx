@@ -23,6 +23,9 @@ export function Header({ setMenuIsVisible }: IHeaderProps) {
             <Link to="/psicologos">Psicologos</Link>
           </li>
           <li>
+            <Link to="/sobre-nos">Sobre nós</Link>
+          </li>
+          <li>
             <Link to="/login">Entrar</Link>
           </li>
           <li>

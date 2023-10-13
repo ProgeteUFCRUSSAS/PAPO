@@ -7,7 +7,7 @@ import { SignOutUsuarios } from './pages/SignOut/Usuario'
 import { Home } from './pages/Home'
 import { HomePsic } from './pages/HomePsic'
 import SignOutPage from './pages/SignOut'
-SignOutPage
+import { AboutUs } from './pages/AboutUs'
 
 export function Router() {
   return (
@@ -17,6 +17,7 @@ export function Router() {
           <Route path="/" element={<Layout />}>
             <Route path="/" element={<Home />} />
             <Route path="/psicologos" element={<HomePsic />} />
+            <Route path="/sobre-nos" element={<AboutUs />} />
             <Route path="/login" element={<SignIn />} />
             <Route
               path="/cadastro-psicologos"
