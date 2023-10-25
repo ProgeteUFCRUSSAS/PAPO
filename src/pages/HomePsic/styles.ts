@@ -56,6 +56,18 @@ export const TitleWithIconFilter = styled.div`
   .input-filter-psyc:focus {
     border: none;
   }
+
+  @media (max-width: 450px) {
+    h1 {
+      font-size: 30px;
+    }
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      font-size: 28px;
+    }
+  }
 `
 
 export const FilterPsyc = styled.div`
