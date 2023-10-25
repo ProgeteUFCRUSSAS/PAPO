@@ -37,6 +37,7 @@ export const Logo = styled.img`
 `
 
 export const NavContainer = styled.nav`
+  margin-right: 1.875rem;
   ul {
     display: flex;
     list-style-type: none;
