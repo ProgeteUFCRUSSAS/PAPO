@@ -25,6 +25,12 @@ export const TitleWithIconFilter = styled.div`
     color: rgba(56, 182, 255, 1);
   }
 
+  .area-filter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
   .icon {
     width: 72.38px;
     height: 72.38px;
@@ -35,6 +41,19 @@ export const TitleWithIconFilter = styled.div`
     color: #fff;
     border-radius: 50%;
     background-color: ${props => props.theme.colors.primary};
+    border: none;
+  }
+
+  .input-filter-psyc {
+    width: 200px;
+    height: 70px;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 3px solid rgba(56, 182, 255, 1);
+  }
+
+  .input-filter-psyc:focus {
     border: none;
   }
 `
