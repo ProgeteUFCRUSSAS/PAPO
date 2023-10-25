@@ -8,6 +8,7 @@ import { Home } from './pages/Home'
 import { HomePsic } from './pages/HomePsic'
 import SignOutPage from './pages/SignOut'
 import { AboutUs } from './pages/AboutUs'
+import { PagePsic } from './pages/PagePsic'
 
 export function Router() {
   return (
@@ -17,6 +18,7 @@ export function Router() {
           <Route path="/" element={<Layout />}>
             <Route path="/" element={<Home />} />
             <Route path="/psicologos" element={<HomePsic />} />
+            <Route path="/pagina-psicologo/:id?" element={<PagePsic />} />
             <Route path="/sobre-nos" element={<AboutUs />} />
             <Route path="/login" element={<SignIn />} />
             <Route
