@@ -1,31 +1,29 @@
-import React, { useState } from 'react'
+// import { useState } from 'react'
 
 import { Footer } from '../../components/Footer'
-import { PsicContent } from '../../components/HomePsicContent'
-import { PsicHero } from '../../components/HomePsicHero'
-import { PsicFAQ } from '../../components/HomePsicFAQ'
 import { PsychologistCard } from '../../components/PsychologistCard'
-import { RiFilterLine, RiFilterOffLine } from 'react-icons/ri'
-
+import { BiSearch } from 'react-icons/bi'
 import * as S from './styles'
 
 export function HomePsic() {
-  const [filterPsycs, setFilterPsycs] = useState(false)
+  // const [openFilterPsycs, setOpenFilterPsycs] = useState(false)
   return (
     <S.PagePsyc>
-      {/* <PsicHero /> */}
-
-      {/* <PsicContent />
-
-
-      <PsicFAQ /> */}
-      <div>
+      <S.TitleWithIconFilter>
         <h1>Psicologos</h1>
-      </div>
-
-      <S.FilterPsyc></S.FilterPsyc>
+        <button
+          className="icon"
+          type="button"
+          // onClick={() => setOpenFilterPsycs(prevState => !prevState)}
+        >
+          <BiSearch />
+        </button>
+      </S.TitleWithIconFilter>
 
       <PsychologistCard />
+      <PsychologistCard />
+      <PsychologistCard />
+
       <Footer />
     </S.PagePsyc>
   )

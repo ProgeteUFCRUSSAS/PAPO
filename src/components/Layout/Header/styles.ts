@@ -8,6 +8,7 @@ export const HeaderContainer = styled.header`
   align-items: center;
   justify-content: space-between;
   margin-bottom: 35px;
+  border-bottom: 5px solid ${props => props.theme.colors.primary};
 
   .mobile {
     display: none;
