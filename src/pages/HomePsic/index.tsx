@@ -1,31 +1,39 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 import { Footer } from '../../components/Footer'
-import { PsicContent } from '../../components/HomePsicContent'
-import { PsicHero } from '../../components/HomePsicHero'
-import { PsicFAQ } from '../../components/HomePsicFAQ'
 import { PsychologistCard } from '../../components/PsychologistCard'
-import { RiFilterLine, RiFilterOffLine } from 'react-icons/ri'
-
+import { BiSearch } from 'react-icons/bi'
 import * as S from './styles'
 
 export function HomePsic() {
-  const [filterPsycs, setFilterPsycs] = useState(false)
+  const [openFilterPsycs, setOpenFilterPsycs] = useState(false)
   return (
     <S.PagePsyc>
-      {/* <PsicHero /> */}
-
-      {/* <PsicContent />
-
-
-      <PsicFAQ /> */}
-      <div>
+      <S.TitleWithIconFilter>
         <h1>Psicologos</h1>
-      </div>
 
-      <S.FilterPsyc></S.FilterPsyc>
+        <div className="area-filter">
+          {openFilterPsycs && (
+            <input
+              type="text"
+              placeholder="Nome ou area de atuação"
+              className="input-filter-psyc"
+            />
+          )}
+          <button
+            className="icon"
+            type="button"
+            onClick={() => setOpenFilterPsycs(prevState => !prevState)}
+          >
+            <BiSearch />
+          </button>
+        </div>
+      </S.TitleWithIconFilter>
 
       <PsychologistCard />
+      <PsychologistCard />
+      <PsychologistCard />
+
       <Footer />
     </S.PagePsyc>
   )
