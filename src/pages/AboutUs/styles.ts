@@ -411,7 +411,7 @@ p{
     
     p{
         font-family: 'Ubuntu', sans-serif;
-        font-size: 20px;
+        font-size: 21px;
         margin-left: 50px;
         margin-bottom: 100px;
         font-weight: 300;

@@ -10,7 +10,7 @@ export function AboutUs() {
     <div>
       <InicialPage>
         <div className ="textoinicial">
-        <h1>Plataforma de <br /> atendimento <br />psicológico online</h1>
+        <h1>Plataforma de atendimento <br />psicológico online</h1>
         <p>Essa plataforma tem como objetivo aumentar a velocidade e agendamento <br />das seções com os psicólogos.</p>
         </div>
         <div className='logo'><img src="src\assets\logoaboutus.svg" id='logo' alt="logo" /></div>
